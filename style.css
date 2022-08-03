@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../images/sakura.png);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+header .links {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+header .links>a {
+    color: rgb(141, 90, 244);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(152, 100, 235);
+}
+
+a {
+    color: rgb(158, 147, 232);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(27, 4, 176);
+}
+
+p {
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+p::first-letter {
+    font-weight: bold;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #eccaf4;
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background: #afc2ff;
+    border: unset;
+    cursor: pointer;
+}
+
+label {
+    color: rgb(27, 4, 176);
+}
+
+.spa_demo {
+    padding: 50px 0 32px;
+}
+
+.msg {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #142fff;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.log {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.form {
+    color: rgb(27, 4, 176);
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(125, 125, 125);
+    background-color: rgba(226, 205, 254, 0.5);
+}
+
+article:nth-child(even) {
+    background-color: rgba(199, 225, 247, 0.5);
+}
+
+article a {
+    color: rgb(44, 3, 3);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgb(9, 9, 141);
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    color: rgb(64, 64, 132);
+}
+
+.article-meta {
+    color: rgb(10, 17, 54);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links>a {
+    color: rgb(125, 112, 245);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(24, 38, 244);
+    font-family: 'Times New Roman', Times, serif;
+}
